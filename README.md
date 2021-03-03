@@ -9,7 +9,7 @@ Contact: evinwatson@outlook.com
 
 ## Directory
 - [Wire Frames](/Docs/Wireframes)
-- [Requirements](/Docs/Requirements.txt)
+- [Requirements](/Docs/Requirements.md)
 - [Use Case Diagram](/Docs/UseCaseDiagram.jpeg)
 - [Database Initialization Script](/Database/DatabaseInitScript.sql)
 - [ERD](/Database/DatabaseEntityDiagram.jpg)
