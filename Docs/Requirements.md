@@ -9,14 +9,19 @@ As a retail store owner, I need the software to auto update inventory sold from 
 
 As a retail store owner, I need efficient and easy to use data entry tools so that I can save time in the stocking process.
 
-
-## Use Case Scenario
-
-Scenario (1):
-Given__________
-(and_________)
-When_________
-Then_________
+## Requirement Traceability Matrix
+| ReqID		| Description | Test Method | TestID |
+| ----------- | ----------- | ---------- | ---------- |
+| 1 | The user shall be able to view and manage inventory | Test | |
+| 2 | The user shall be able to make requests | Test | |
+| 3 | The user shall be able to View Notifications | Test | |
+| 4 | The user(Organization Administrator) shall be able to manage organization | Inspection | |
+| 5 | The user shall be able to view Order Statuses | Test | |
+| 6 | The system shall handle Login and Authentication | Analysis | |
+| 7 | The system shall allow the data servers interact with APIs for POS and order tracking | Analysis | |
+| 8 | The system shall allow for real-time database updating | Test | |
+| 9 |  The system shall allow cross-platform compatibility with all browsers and operating systems | Analysis | |
+| 10 |  The system shall allow 99.9% Server Uptime | Test | |
 
 ## Requirements
 ### User Requirements
