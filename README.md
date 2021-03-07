@@ -8,10 +8,11 @@ Contact: evinwatson@outlook.com
 ![Logo](/Docs/Logo.png)
 
 ## Directory
-- [Wire Frames](/Docs/Wireframes/README.MD)
 - [Requirements](/Docs/Requirements.md)
+- [Entity Relationship Diagram](/Database/DatabaseEntityDiagram.jpg)
 - [Use Case Diagram](/Docs/UseCaseDiagram.jpeg)
+- [Wire Frames](/Docs/Wireframes/README.MD)
 - [Database Initialization Script](/Database/DatabaseInitScript.sql)
-- [ERD](/Database/DatabaseEntityDiagram.jpg)
+
 
 
