@@ -8,7 +8,7 @@ Contact: evinwatson@outlook.com
 ![Logo](/Docs/Logo.png)
 
 ## Directory
-- [Wire Frames](/Docs/Wireframes)
+- [Wire Frames](/Docs/Wireframes/README.MD)
 - [Requirements](/Docs/Requirements.md)
 - [Use Case Diagram](/Docs/UseCaseDiagram.jpeg)
 - [Database Initialization Script](/Database/DatabaseInitScript.sql)
