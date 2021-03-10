@@ -23,6 +23,15 @@ As a retail store owner, I need efficient and easy to use data entry tools so th
 | 9 |  The system shall allow cross-platform compatibility with all browsers and operating systems | Analysis | |
 | 10 |  The system shall allow 99.9% Server Uptime | Test | |
 
+## Test Table
+| Test ID | ReqID | Procedure | Status | TimeStamp |
+| ----------- | ----------- | ---------- | ---------- | ----------------- |
+| 1 | 1 | Click through and be able to add and remove inventory | Not-Tested | N/A |
+| 2 | 2 | Start up the request form and be able to place a request | Not-Tested | N/A |
+| 3 | 3 | Notifications appear on the home page given conditions | Not-Tested | N/A |
+| 4 | 5 | Click on Requests and see all placed Requests | Not-Tested | N/A |
+| 5 | 8 | Using two users, observe the time it takes to update the database from one users change to the second users machine | Not-Tested | N/A |
+| 6 | 10 | Measure Server Uptime over a monthly basis | Not-Tested | N/A | 
 ## Requirements
 ### User Requirements
 	View and Manage Inventory
