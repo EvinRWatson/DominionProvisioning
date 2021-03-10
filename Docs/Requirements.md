@@ -1,6 +1,6 @@
 # Dominion Provisioning Software Requirements
 
-## User’s Voice
+## User’s Story
 As a retail store owner, I need a POS/inventory tracking software so that I can better manage my business.
 
 As an auto shop owner, I need a inventory software so that I can keep track of my parts in inventory and on order.
