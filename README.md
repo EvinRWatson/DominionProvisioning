@@ -8,7 +8,7 @@ Contact: evinwatson@outlook.com
 ![Logo](/Docs/Logo.png)
 
 ## Directory
-- [New: UI Prototype](https://xd.adobe.com/view/bbc44b9e-a7ec-4058-853e-c801bf7ba6e2-ee97/?fullscreen)
+- [New: UI Prototype](/Docs/Prototype.md)
 - [Requirements](/Docs/Requirements.md)
 - [Entity Relationship Diagram](/Database/DatabaseEntityDiagram.jpg)
 - [Use Case Diagram](/Docs/UseCaseDiagram.jpeg)
