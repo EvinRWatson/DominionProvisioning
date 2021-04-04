@@ -18,6 +18,8 @@ drop table if exists Requests
 create table Requests
 (
 	ReqID int identity,
+	UserID int,
+	OrgID int,
 	ReqDesc nvarchar(100),
 	ReqItems nvarchar(500),
 	ReqStatus nvarchar(100)
@@ -28,7 +30,8 @@ create table Inventory
 (
 	StockID int identity,
 	ItemName nvarchar(100),
-	Quantity int
+	Quantity int,
+	OrgID int,
 )
 
 drop table if exists StockList
@@ -36,5 +39,6 @@ create table StockList
 (
 	StockID int identity,
 	ItemName nvarchar(100),
-	ImagePath nvarchar(500)
+	ImagePath nvarchar(500),
+	OrgID int
 )
