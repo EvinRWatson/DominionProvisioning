@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Dominion.Models.Requests>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrgID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StockID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReqDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReqItems)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReqStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrgID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StockID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReqDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReqItems)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReqStatus)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ReqID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ReqID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ReqID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
