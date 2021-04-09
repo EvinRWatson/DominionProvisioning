@@ -7157,11 +7157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EvinW\\source\\repos\\Dominion\\Dominion.csproj",
+      "projectUniqueName": "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Dominion.csproj",
       "projectName": "Dominion",
-      "projectPath": "C:\\Users\\EvinW\\source\\repos\\Dominion\\Dominion.csproj",
+      "projectPath": "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Dominion.csproj",
       "packagesPath": "C:\\Users\\EvinW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EvinW\\source\\repos\\Dominion\\obj\\",
+      "outputPath": "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
