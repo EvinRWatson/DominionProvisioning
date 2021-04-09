@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jSTpgMvmlYdoFqN+xBHI/CSXrjaW3kbuDSctkTAjFYlSU077H4hQq1hiNCPjWM6bWLsD/s1O3jpeIbbic+mBhQ==",
+  "dgSpecHash": "FQP6cd+/CvbzeMICcEmf1tBiJbKiGmftg+gCTElXnOoJzYyzVZa4v0JUvsWQSkUPHcKzKJ/wLn5qbGxC80kFSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Dominion.csproj",
+  "projectFilePath": "C:\\Users\\EvinW\\source\\repos\\Dominion\\Dominion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EvinW\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

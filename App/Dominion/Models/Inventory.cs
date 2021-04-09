@@ -7,7 +7,7 @@ namespace Dominion.Models
         [Key]
         public int StockID { get; set; }
 
-        [MaxLength(100, ErrorMessage = "Name can only be 100 characters!")]
+        [MaxLength(100, ErrorMessage = "Name can only be 100 characters")]
         public string ItemName { get; set; }
 
         public int Quantity { get; set; }

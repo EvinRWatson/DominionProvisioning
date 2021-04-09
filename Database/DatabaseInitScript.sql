@@ -9,7 +9,6 @@ create table Users
 	UserName varchar(15),
 	FirstName nvarchar(30),
 	LastName nvarchar(30),
-	Organization nvarchar,
 	OrgID int,
 	AuthLevel int
 )
@@ -26,7 +25,7 @@ create table StockList
 drop table if exists Requests
 create table Requests
 (
-	ReqID int identity,
+	ReqID int primary key,
 	UserID int foreign key references Users(UserID),
 	OrgID int,
 	StockID int foreign key references StockList(StockID),

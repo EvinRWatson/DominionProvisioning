@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominion", "Dominion.csproj", "{1A5C7150-74BF-410D-91A7-B27D82608163}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominion", "Dominion.csproj", "{8153B72B-D14F-4004-96A0-8F812DCADE99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1A5C7150-74BF-410D-91A7-B27D82608163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A5C7150-74BF-410D-91A7-B27D82608163}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A5C7150-74BF-410D-91A7-B27D82608163}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A5C7150-74BF-410D-91A7-B27D82608163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8153B72B-D14F-4004-96A0-8F812DCADE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8153B72B-D14F-4004-96A0-8F812DCADE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8153B72B-D14F-4004-96A0-8F812DCADE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8153B72B-D14F-4004-96A0-8F812DCADE99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AD39B864-E040-4785-A75E-AF86C1175307}
+		SolutionGuid = {45434CD4-EB5D-442E-B57F-D6C65EDEBA82}
 	EndGlobalSection
 EndGlobal

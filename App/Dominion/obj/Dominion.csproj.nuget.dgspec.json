@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Dominion.csproj": {}
+    "C:\\Users\\EvinW\\source\\repos\\Dominion\\Dominion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Dominion.csproj": {
+    "C:\\Users\\EvinW\\source\\repos\\Dominion\\Dominion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Dominion.csproj",
+        "projectUniqueName": "C:\\Users\\EvinW\\source\\repos\\Dominion\\Dominion.csproj",
         "projectName": "Dominion",
-        "projectPath": "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Dominion.csproj",
+        "projectPath": "C:\\Users\\EvinW\\source\\repos\\Dominion\\Dominion.csproj",
         "packagesPath": "C:\\Users\\EvinW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\obj\\",
+        "outputPath": "C:\\Users\\EvinW\\source\\repos\\Dominion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,10 +65,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.4, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration": {
-              "target": "Package",
-              "version": "[5.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

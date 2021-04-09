@@ -14,13 +14,13 @@ namespace Dominion.Models
         [ForeignKey("StockID")]
         public int StockID { get; set; }
 
-        [MaxLength(100, ErrorMessage = "Description can only be 100 characters!")]
+        [MaxLength(100, ErrorMessage = "Description can only be 100 characters")]
         public string ReqDesc { get; set; }
 
-        [MaxLength(500, ErrorMessage = "Items can only be 500 characters!")]
+        [MaxLength(500, ErrorMessage = "Items can only be 500 characters")]
         public string ReqItems { get; set; }
 
-        [MaxLength(100, ErrorMessage = "Status can only be 100 characters!")]
+        [MaxLength(100, ErrorMessage = "Status can only be 100 characters")]
         public string ReqStatus { get; set; }
 
 
