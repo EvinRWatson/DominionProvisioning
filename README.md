@@ -13,7 +13,6 @@ Contact: evinwatson@outlook.com
 - [Requirements](/Docs/Requirements.md)
 - [Entity Relationship Diagram](/Database/DatabaseEntityDiagram.jpg)
 - [Use Case Diagram](/Docs/UseCaseDiagram.jpeg)
-- [New: Database Diagram](/Database/DatabaseDiagram.jpg
 - [Wire Frames](/Docs/Wireframes/README.MD)
 - [Database Initialization Script](/Database/DatabaseInitScript.sql)
 
