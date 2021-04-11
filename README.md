@@ -8,11 +8,12 @@ Contact: evinwatson@outlook.com
 ![Logo](/Docs/Logo.png)
 
 ## Directory
+- [New: Database Integration](/Database/IntegrationProof)
+- [New: SSMS Database Diagram](Database/DatabaseDiagram.jpg)
 - [Project Files](/App/Dominion)
 - [UI Prototype](/Docs/Prototype.md)
 - [Requirements](/Docs/Requirements.md)
 - [Entity Relationship Diagram](/Database/DatabaseEntityDiagram.jpg)
-- [New: SSMS Database Diagram](Database/DatabaseDiagram.jpg)
 - [Use Case Diagram](/Docs/UseCaseDiagram.jpeg)
 - [Wire Frames](/Docs/Wireframes/README.MD)
 - [Database Initialization Script](/Database/DatabaseInitScript.sql)
