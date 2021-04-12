@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RJ/nxpnqC0TyaqBUPGMkbLi5AYoJK+KtD9NU6AyaV0LOh7AemDhpzct+GfOpl+MBvCYXdPeieHhRWzi+uBoZFQ==",
+  "dgSpecHash": "W0tte/UICDCjnRJG2uwJKjHc+k78wnBDAI34U34XkvvPkM/JBJBggbPyrFu3qsdAljz4b/hSOlV1GZdinmqiYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Dominion.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\EvinW\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\EvinW\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
@@ -54,6 +56,7 @@
     "C:\\Users\\EvinW\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\EvinW\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\EvinW\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

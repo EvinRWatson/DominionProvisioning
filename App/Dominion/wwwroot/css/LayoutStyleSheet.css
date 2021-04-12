@@ -1,0 +1,41 @@
+﻿/* For _Layout.cshtml */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+}
+
+.DominionNavBar {
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.MainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    grid-template-areas:
+        "NavBar MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody"
+        "NavBar MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody";
+}
+
+.NavBar {
+    grid-area: NavBar;
+}
+
+.MainBody {
+    grid-area: MainBody;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
