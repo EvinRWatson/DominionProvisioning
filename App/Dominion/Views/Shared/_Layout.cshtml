@@ -11,12 +11,12 @@
 
     <body class="MainContainer">
 
-        <nav class=" NavBar DominionNavBar nav flex-column">
-            <a class="DominionNavBar layout-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"> Home</a>
-            <a class="DominionNavBar layout-link text-dark" asp-area="" asp-controller="Requests" asp-action="Index"> Requests</a>
-            <a class="DominionNavBar layout-link text-dark" asp-area="" asp-controller="Inventories" asp-action="Index"> Inventories</a>
-            <a class="DominionNavBar layout-link text-dark" asp-area="" asp-controller="StockLists" asp-action="Index"> Stock Lists</a>
-            <a class="DominionNavBar layout-link text-dark" asp-area="" asp-controller="Users" asp-action="Index"> Users</a>
+        <nav class="NavBar DominionNavBar nav flex-column">
+            <input type="button" class="NavBarButton" value="Home" onclick="location.href='@Url.Action("Index", "Home")'" />
+            <input type="button" class="NavBarButton" value="Requests" onclick="location.href='@Url.Action("Index", "Requests")'" />
+            <input type="button" class="NavBarButton" value="Inventories" onclick="location.href='@Url.Action("Index", "Inventories")'" />
+            <input type="button" class="NavBarButton" value="Stock List" onclick="location.href='@Url.Action("Index", "StockLists")'" />
+            <input type="button" class="NavBarButton" value="Users" onclick="location.href='@Url.Action("Index", "Users")'" />
         </nav>
 
         <main role="main" class="MainBody pb-3">

@@ -39,3 +39,15 @@ a.navbar-brand {
     text-align: center;
     word-break: break-all;
 }
+
+.NavBarButton {
+    background-color: #125721;
+    border-style: outset;
+    border-color: "black";
+    color: white;
+    padding: 20px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
