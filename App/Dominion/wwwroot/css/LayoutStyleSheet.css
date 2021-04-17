@@ -11,16 +11,13 @@ body {
     width: 100%;
 }
 
-.DominionNavBar {
-    overflow: hidden;
-    background-color: lightgray;
-}
 
 .MainContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     height: 100vh;
+    background-image: linear-gradient(white, gray);
     grid-template-areas:
         "NavBar MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody"
         "NavBar MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody";
@@ -28,6 +25,7 @@ body {
 
 .NavBar {
     grid-area: NavBar;
+    padding-right: 10%;
 }
 
 .MainBody {
@@ -42,10 +40,15 @@ a.navbar-brand {
 
 .NavBarButton {
     background-color: #125721;
+    border-radius: 15px;
     color: white;
     padding: 20px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.NavBarButton:hover{
+    background-color: gray;
 }
