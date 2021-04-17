@@ -42,8 +42,6 @@ a.navbar-brand {
 
 .NavBarButton {
     background-color: #125721;
-    border-style: outset;
-    border-color: "black";
     color: white;
     padding: 20px 12px;
     text-align: center;

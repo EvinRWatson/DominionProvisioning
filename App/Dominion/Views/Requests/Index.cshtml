@@ -3,63 +3,77 @@
 @{
     ViewData["Title"] = "Index";
 }
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - Dominion</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/LayoutStyleSheet.css" />
+        <link rel="stylesheet" href="~/css/Pages.css" />
+    </head>
+    <h1>Requests</h1>
 
-<h1>Requests</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.UserID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OrgID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.StockID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ReqDesc)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ReqItems)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ReqStatus)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrgID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StockID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReqDesc)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReqItems)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReqStatus)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ReqID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ReqID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ReqID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReqID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OrgID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StockID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReqDesc)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReqItems)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReqStatus)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReqID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrgID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StockID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReqDesc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReqItems)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReqStatus)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.ReqID" class="btn btn-primary">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@item.ReqID" class="btn btn-warning">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ReqID" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
