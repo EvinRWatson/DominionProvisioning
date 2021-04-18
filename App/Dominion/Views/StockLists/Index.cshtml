@@ -7,11 +7,14 @@
 <h1>Stock List</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Add Stock Item</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StockID)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.ItemName)
             </th>
@@ -28,6 +31,9 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.StockID)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.ItemName)
             </td>
             <td>
@@ -37,9 +43,9 @@
                 @Html.DisplayFor(modelItem => item.OrgID)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.StockID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.StockID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.StockID">Delete</a>
+                <a asp-action="Details" asp-route-id="@item.StockID" class="btn btn-primary">Details</a> |
+                <a asp-action="Edit" asp-route-id="@item.StockID" class="btn btn-warning">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.StockID" class="btn btn-danger">Delete</a>
             </td>
         </tr>
 }
