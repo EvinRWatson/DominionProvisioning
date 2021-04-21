@@ -11,25 +11,14 @@ body {
     width: 100%;
 }
 
-
-.MainContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    height: 100vh;
+.Gradient {
     background-image: linear-gradient(white, gray);
-    grid-template-areas:
-        "NavBar MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody"
-        "NavBar MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody MainBody";
 }
+
 
 .NavBar {
     grid-area: NavBar;
     padding-right: 10%;
-}
-
-.MainBody {
-    grid-area: MainBody;
 }
 
 a.navbar-brand {
@@ -44,11 +33,11 @@ a.navbar-brand {
     color: white;
     padding: 20px 12px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .NavBarButton:hover{
     background-color: gray;
 }
+

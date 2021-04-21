@@ -9,24 +9,29 @@
         <link rel="stylesheet" href="~/css/LayoutStyleSheet.css" />
     </head>
 
-    <body class="MainContainer">
+    <body class="Gradient">
+        <div class="row">
+            <div class="col-md-1">
+                <nav class="NavBar nav flex-column">
+                        <input type="button" class="NavBarButton" value="Home" onclick="location.href='@Url.Action("Index", "Home")'" />
+                        <input type="button" class="NavBarButton" value="Requests" onclick="location.href='@Url.Action("Index", "Requests")'" />
+                        <input type="button" class="NavBarButton" value="Inventories" onclick="location.href='@Url.Action("Index", "Inventories")'" />
+                        <input type="button" class="NavBarButton" value="Stock List" onclick="location.href='@Url.Action("Index", "StockLists")'" />
+                        <input type="button" class="NavBarButton" value="Users" onclick="location.href='@Url.Action("Index", "Users")'" />
+                </nav>
+            </div>
+            
+            <div class="col-md-11">
+                <main role="main" class="MainBody pb-3">
+                    @RenderBody()
+                </main>
+            </div>
 
-        <nav class="NavBar nav flex-column">
-                <input type="button" class="NavBarButton" value="Home" onclick="location.href='@Url.Action("Index", "Home")'" />
-                <input type="button" class="NavBarButton" value="Requests" onclick="location.href='@Url.Action("Index", "Requests")'" />
-                <input type="button" class="NavBarButton" value="Inventories" onclick="location.href='@Url.Action("Index", "Inventories")'" />
-                <input type="button" class="NavBarButton" value="Stock List" onclick="location.href='@Url.Action("Index", "StockLists")'" />
-                <input type="button" class="NavBarButton" value="Users" onclick="location.href='@Url.Action("Index", "Users")'" />
-        </nav>
-
-        <main role="main" class="MainBody pb-3">
-            @RenderBody()
-        </main>
-
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-        @await RenderSectionAsync("Scripts", required: false)
-
+            <script src="~/lib/jquery/dist/jquery.min.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>
+            @await RenderSectionAsync("Scripts", required: false)
+        </div>
     </body>
+
 </html>
