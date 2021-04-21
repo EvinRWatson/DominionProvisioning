@@ -329,3 +329,4 @@ C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\D
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Users\Details.cshtml.g.cs
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Users\Edit.cshtml.g.cs
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
