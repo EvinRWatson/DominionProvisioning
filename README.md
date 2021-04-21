@@ -8,8 +8,10 @@ Contact: evinwatson@outlook.com
 ![Logo](/Docs/Logo.png)
 
 ## Directory
-- [New: Database Integration](/Database/IntegrationProof)
-- [New: SSMS Database Diagram](Database/DatabaseDiagram.jpg)
+- [Scrum Board](https://github.com/EvinRWatson/DominionProvisioning/projects/1)
+- [Issues](https://github.com/EvinRWatson/DominionProvisioning/issues)
+- [Database Integration](/Database/IntegrationProof)
+- [SSMS Database Diagram](Database/DatabaseDiagram.jpg)
 - [Project Files](/App/Dominion)
 - [UI Prototype](/Docs/Prototype.md)
 - [Requirements](/Docs/Requirements.md)
