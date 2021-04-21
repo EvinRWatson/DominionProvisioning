@@ -9,10 +9,8 @@ Contact: evinwatson@outlook.com
 
 ## Directory
 - [Scrum Board](https://github.com/EvinRWatson/DominionProvisioning/projects/1)
-- [Issues](https://github.com/EvinRWatson/DominionProvisioning/issues)
-- [Database Integration](/Database/IntegrationProof)
-- [SSMS Database Diagram](Database/DatabaseDiagram.jpg)
 - [Project Files](/App/Dominion)
+- [SSMS Database Diagram](Database/DatabaseDiagram.jpg)
 - [UI Prototype](/Docs/Prototype.md)
 - [Requirements](/Docs/Requirements.md)
 - [Entity Relationship Diagram](/Database/DatabaseEntityDiagram.jpg)
