@@ -35,9 +35,35 @@ a.navbar-brand {
     text-align: center;
     display: inline-block;
     font-size: 18px;
+
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .NavBarButton:hover{
     background-color: gray;
+}
+
+
+.NavBarButtonn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.NavBarButton span:after {
+  content: '\00bb';
+  position: absolute;
+  transition: 0.5s;
+}
+
+.NavBarButtonn:hover span {
+  padding-right: 25px;
+}
+
+.NavBarButton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
