@@ -329,4 +329,10 @@ C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\D
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Users\Details.cshtml.g.cs
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Users\Edit.cshtml.g.cs
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
-C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\Admin\IdentityUsers.cshtml.g.cs
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs

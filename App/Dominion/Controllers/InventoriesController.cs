@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Dominion.Data;
 using Dominion.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Dominion.Controllers
 {
+    [Authorize]
     public class InventoriesController : Controller
     {
         private readonly DominionContext _context;

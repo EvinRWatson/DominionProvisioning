@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\StockLists\\Delete.cshtml",
       "TargetPath": "Views\\StockLists\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15666,6 +15671,11 @@
     {
       "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Pages\\Admin\\IdentityUsers.cshtml",
+      "TargetPath": "Pages\\Admin\\IdentityUsers.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15696,11 +15706,6 @@
     {
       "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Users\\Index.cshtml",
       "TargetPath": "Views\\Users\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Login\\Index.cshtml",
-      "TargetPath": "Views\\Login\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
