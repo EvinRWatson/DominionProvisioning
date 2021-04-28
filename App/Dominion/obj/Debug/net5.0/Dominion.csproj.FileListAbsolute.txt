@@ -340,3 +340,4 @@ C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\D
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\Users\List.cshtml.g.cs
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\Users\_Layout.cshtml.g.cs
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs

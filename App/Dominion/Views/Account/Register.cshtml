@@ -1,28 +1,23 @@
-﻿@model LoginModel
+﻿@model RegisterModel
 @{ Layout = null; }
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>@ViewData["Title"] - Dominion</title>
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" />
         <link rel="stylesheet" href="~/css/LayoutStyleSheet.css" />
-</head>
+    </head>
 
     <body style="background-image: linear-gradient(white, gray); height: 100%; overflow: hidden;">
         <div class="row">
             <div class="col-md-4">
-                    <img src="https://raw.githubusercontent.com/EvinRWatson/DominionProvisioning/main/Docs/Logo.png" width="350" height="350" alt="Logo" style="margin: auto; display: block;">
-                    <h5>Dominion Provisioning is an inventory and maintenance management software designed for companies to manage their own inventory database with functionality for maintenance management and status tracking.</h5>
-                    <h5>Follow our progress on <a href="https://github.com/EvinRWatson/DominionProvisioning" class="btn btn-info">GitHub!</a></h5>
             </div>
             <div class="col-md-4">
-            </div>
-            <div class="col-md-2">
                 <div class="text-danger" asp-validation-summary="All"></div>
-                <form asp-action="Login" asp-controller="Account" method="post">
+                <form asp-action="Register" asp-controller="Account" method="post">
                     <input type="hidden" asp-for="ReturnUrl" />
                     <div class="form-group">
                         <label asp-for="Name">Username</label>
@@ -34,15 +29,25 @@
                         <div asp-validation-for="Password" class="text-danger"></div>
                         <input asp-for="Password" type="password" class="form-control" />
                     </div>
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword">Confirm Password</label>
+                        <div asp-validation-for="ConfirmPassword" class="text-danger"></div>
+                        <input asp-for="ConfirmPassword" type="password" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email"></label>
+                        <div asp-validation-for="Email" class="text-danger"></div>
+                        <input asp-for="Email" class="form-control" />
+                    </div>
                     <button class="btn btn-primary" style="background-color: #125721;" type="submit">Log In</button>
-                    <a class="btn btn-warning" href="/account/Register">Register</a>
+                    <a class="btn btn-warning" href="/account/Login">Go Back</a>
                 </form>
-                </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-4">
             </div>
-                <script src="~/lib/jquery/dist/jquery.min.js"></script>
-                <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-                <script src="~/js/site.js" asp-append-version="true"></script>
+        </div>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
     </body>
 </html>

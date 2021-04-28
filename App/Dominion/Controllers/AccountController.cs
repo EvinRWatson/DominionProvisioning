@@ -52,5 +52,33 @@ namespace Dominion.Controllers
             await signInManager.SignOutAsync();
             return Redirect(returnUrl);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Register(RegisterModel registerModel)
+        {
+            if (ModelState.IsValid)
+            {
+                IdentityUser User = new IdentityUser { UserName = registerModel.Name, Email = registerModel.Email };
+                var result = await userManager.CreateAsync(User, registerModel.Password);
+                if(result.Succeeded)
+                {
+                    await signInManager.SignOutAsync();
+                    if((await signInManager.PasswordSignInAsync(registerModel.Name, registerModel.Password, false, false)).Succeeded)
+                    {
+                        return Redirect(registerModel?.ReturnUrl ?? "/");
+                    }
+                }
+            }
+            return View(registerModel);
+        }
+
+        public ViewResult Register(string returnUrl)
+        {
+            return View(new RegisterModel
+            {
+                ReturnUrl = returnUrl
+            });
+        }
     }
 }
