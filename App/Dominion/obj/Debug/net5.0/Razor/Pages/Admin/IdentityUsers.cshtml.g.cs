@@ -13,6 +13,41 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
+#line 2 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Pages\_ViewImports.cshtml"
+using Dominion.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Pages\_ViewImports.cshtml"
+using Microsoft.EntityFrameworkCore;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Pages\_ViewImports.cshtml"
+using System.ComponentModel.DataAnnotations;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Pages\_ViewImports.cshtml"
+using Dominion.Pages.Admin;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 8 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Pages\_ViewImports.cshtml"
+using Dominion.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Pages\Admin\IdentityUsers.cshtml"
 using Microsoft.AspNetCore.Identity;
 
@@ -34,6 +69,7 @@ using Microsoft.AspNetCore.Authorization;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"999fb9dc557929502548fcb89b4ade373cedd45c", @"/Pages/Admin/IdentityUsers.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1e0344dc2c0f0d1839b8d3fee886cef0df416ae1", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Admin_IdentityUsers : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998

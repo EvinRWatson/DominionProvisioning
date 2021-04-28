@@ -15,6 +15,10 @@ body {
     background-image: linear-gradient(white, gray);
 }
 
+.Center {
+  vertical-align: middle;
+}
+
 
 .NavBar {
     grid-area: NavBar;
