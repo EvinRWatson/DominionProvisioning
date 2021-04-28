@@ -26,43 +26,8 @@ using Dominion.Models;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Dominion.Pages;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 4 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 5 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.EntityFrameworkCore;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 6 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using System.ComponentModel.DataAnnotations;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 7 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d64552f514dc39e1b39210bc8ccb620e7eef2a61", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f70b8ff323e9110c661a3661898f0441b76996dd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a549f9143f8c17a6e51c065dfa50aa8bf0c3cd8", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

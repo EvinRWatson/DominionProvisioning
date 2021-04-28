@@ -15619,11 +15619,6 @@
   "RootNamespace": "Dominion",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Pages\\Users\\_Layout.cshtml",
-      "TargetPath": "Pages\\Users\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Users\\Details.cshtml",
       "TargetPath": "Views\\Users\\Details.cshtml",
       "FileKind": "mvc"
@@ -15689,11 +15684,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Pages\\Users\\Create.cshtml",
-      "TargetPath": "Pages\\Users\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Requests\\Edit.cshtml",
       "TargetPath": "Views\\Requests\\Edit.cshtml",
       "FileKind": "mvc"
@@ -15719,11 +15709,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Inventories\\Details.cshtml",
       "TargetPath": "Views\\Inventories\\Details.cshtml",
       "FileKind": "mvc"
@@ -15731,11 +15716,6 @@
     {
       "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Requests\\Index.cshtml",
       "TargetPath": "Views\\Requests\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Pages\\Users\\List.cshtml",
-      "TargetPath": "Pages\\Users\\List.cshtml",
       "FileKind": "mvc"
     },
     {

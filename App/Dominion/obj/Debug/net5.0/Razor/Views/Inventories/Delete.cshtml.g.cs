@@ -26,43 +26,8 @@ using Dominion.Models;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Dominion.Pages;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 4 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 5 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.EntityFrameworkCore;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 6 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using System.ComponentModel.DataAnnotations;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 7 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ed4f76b445910299346ead66f90a628be6cca1cf", @"/Views/Inventories/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f70b8ff323e9110c661a3661898f0441b76996dd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a549f9143f8c17a6e51c065dfa50aa8bf0c3cd8", @"/Views/_ViewImports.cshtml")]
     public class Views_Inventories_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Dominion.Models.Inventory>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "hidden", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -178,9 +143,9 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n    \r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed4f76b445910299346ead66f90a628be6cca1cf9407", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed4f76b445910299346ead66f90a628be6cca1cf8313", async() => {
                 WriteLiteral("\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ed4f76b445910299346ead66f90a628be6cca1cf9673", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ed4f76b445910299346ead66f90a628be6cca1cf8579", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -203,7 +168,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        <input type=\"submit\" value=\"Delete\" class=\"btn btn-danger\" /> |\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed4f76b445910299346ead66f90a628be6cca1cf11491", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed4f76b445910299346ead66f90a628be6cca1cf10397", async() => {
                     WriteLiteral("Back to List");
                 }
                 );

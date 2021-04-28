@@ -12,38 +12,38 @@
         <link rel="stylesheet" href="~/css/LayoutStyleSheet.css" />
     </head>
 </head>
-    <body style="background-image: linear-gradient(white, gray); height: 100%; overflow: hidden;">
-        <div class="row">
-            <div class="col-md-4">
-                    <img src="https://raw.githubusercontent.com/EvinRWatson/DominionProvisioning/main/Docs/Logo.png" width="350" height="350" alt="Logo" style="margin: auto; display: block;">
-                    <h5>Dominion Provisioning is an inventory and maintenance management software designed for companies to manage their own inventory database with functionality for maintenance management and status tracking.</h5>
-                    <h5>Follow our progress on <a href="https://github.com/EvinRWatson/DominionProvisioning" class="btn btn-info">GitHub!</a></h5>
-            </div>
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-2">
-                <div class="text-danger" asp-validation-summary="All"></div>
-                    <form asp-action="Login" asp-controller="Account" method="post">
-                    <input type="hidden" asp-for="ReturnUrl" />
-                        <div class="form-group">
-                        <label asp-for="Name">Username</label>
-                            <div asp-validation-for="Name" class="text-danger"></div>
-                            <input asp-for="Name" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Password"></label>
-                            <div asp-validation-for="Password" class="text-danger"></div>
-                            <input asp-for="Password" type="password" class="form-control" />
-                        </div>
-                        <button class="btn btn-primary" style="background-color: #125721;" type="submit">Log In</button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-md-2">
+
+<body style="background-image: linear-gradient(white, gray); height: 100%; overflow: hidden;">
+    <div class="row">
+        <div class="col-md-5">
+                <img src="https://raw.githubusercontent.com/EvinRWatson/DominionProvisioning/main/Docs/Logo.png" width="350" height="350" alt="Logo" style="margin: auto; display: block;">
+                <h5>Dominion Provisioning is an inventory and maintenance management software designed for companies to manage their own inventory database with functionality for maintenance management and status tracking.</h5>
+                <h5>Follow our progress on <a href="https://github.com/EvinRWatson/DominionProvisioning" class="btn btn-info">GitHub!</a></h5>
+        </div>
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-4">
+            <div class="text-danger" asp-validation-summary="All"></div>
+                <form asp-action="Login" asp-controller="Account" method="post">
+                <input type="hidden" asp-for="ReturnUrl" />
+                    <div class="form-group">
+                      <label asp-for="Name"></label>
+                        <div asp-validation-for="Name" class="text-danger"></div>
+                        <input asp-for="Name" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password"></label>
+                        <div asp-validation-for="Password" class="text-danger"></div>
+                        <input asp-for="Password" type="password" class="form-control" />
+                    </div>
+                    <button class="btn btn-primary" type="submit">Log In</button>
+                </form>
             </div>
         </div>
-                <script src="~/lib/jquery/dist/jquery.min.js"></script>
-                <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-                <script src="~/js/site.js" asp-append-version="true"></script>
-    </body>
+    </div>
+            <script src="~/lib/jquery/dist/jquery.min.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+
 </html>

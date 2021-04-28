@@ -26,43 +26,8 @@ using Dominion.Models;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Dominion.Pages;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 4 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 5 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.EntityFrameworkCore;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 6 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using System.ComponentModel.DataAnnotations;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 7 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ca429e8b48fbb3d28f0b120fb325c09dbe27ec97", @"/Views/Requests/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f70b8ff323e9110c661a3661898f0441b76996dd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a549f9143f8c17a6e51c065dfa50aa8bf0c3cd8", @"/Views/_ViewImports.cshtml")]
     public class Views_Requests_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Dominion.Models.Requests>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -113,7 +78,7 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec978888", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec977794", async() => {
                 WriteLiteral("\r\n        <meta charset=\"utf-8\" />\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n        <title>");
 #nullable restore
 #line 9 "C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\Views\Requests\Index.cshtml"
@@ -123,7 +88,7 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
                 WriteLiteral(" - Dominion</title>\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec979573", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec978479", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -138,7 +103,7 @@ using Microsoft.AspNetCore.Identity;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9710755", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec979661", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -153,7 +118,7 @@ using Microsoft.AspNetCore.Identity;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9711938", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9710843", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -168,7 +133,7 @@ using Microsoft.AspNetCore.Identity;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9713121", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9712026", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -195,7 +160,7 @@ using Microsoft.AspNetCore.Identity;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    <h1>Requests</h1>\r\n\r\n    <p>\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9715056", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9713961", async() => {
                 WriteLiteral("Create New");
             }
             );
@@ -332,7 +297,7 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9721758", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9720663", async() => {
                 WriteLiteral("Details");
             }
             );
@@ -364,7 +329,7 @@ using Microsoft.AspNetCore.Identity;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9724047", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9722952", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -396,7 +361,7 @@ using Microsoft.AspNetCore.Identity;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9726330", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca429e8b48fbb3d28f0b120fb325c09dbe27ec9725235", async() => {
                 WriteLiteral("Delete");
             }
             );

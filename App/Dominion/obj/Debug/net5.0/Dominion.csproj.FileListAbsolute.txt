@@ -336,7 +336,3 @@ C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\bin\D
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\Admin\IdentityUsers.cshtml.g.cs
 C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
-C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\Users\Create.cshtml.g.cs
-C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\Users\List.cshtml.g.cs
-C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\Users\_Layout.cshtml.g.cs
-C:\Users\EvinW\Documents\DominionProject\DominionProvisioning\App\Dominion\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs

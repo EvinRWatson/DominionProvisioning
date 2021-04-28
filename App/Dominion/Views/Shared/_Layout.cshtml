@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="~/css/LayoutStyleSheet.css" />
     </head>
 
-    <body class="row Gradient" style="overflow: hidden;" >
-        
+    <body class="Gradient" style="overflow: hidden;" >
+        <div class="row">
             <div class="col-md-1">
                 <nav class="NavBar nav flex-column">
                     <input type="button" class="NavBarButton" value="Home" onclick="location.href='@Url.Action("Index", "Home")'" />
@@ -32,7 +32,7 @@
             <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
             <script src="~/js/site.js" asp-append-version="true"></script>
             @await RenderSectionAsync("Scripts", required: false)
-        
+        </div>
     </body>
 
 </html>
