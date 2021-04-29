@@ -15664,6 +15664,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\EvinW\\Documents\\DominionProject\\DominionProvisioning\\App\\Dominion\\Views\\Requests\\Create.cshtml",
       "TargetPath": "Views\\Requests\\Create.cshtml",
       "FileKind": "mvc"

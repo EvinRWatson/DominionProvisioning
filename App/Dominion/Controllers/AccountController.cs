@@ -70,6 +70,7 @@ namespace Dominion.Controllers
                     }
                 }
             }
+            ModelState.AddModelError("", "Invalid Account Values");
             return View(registerModel);
         }
 
