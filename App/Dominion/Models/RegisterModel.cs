@@ -9,7 +9,7 @@ namespace Dominion.Models
     public class RegisterModel
     {
         [Required]
-        public string Name { get; set; }
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -23,6 +23,18 @@ namespace Dominion.Models
         [Required]
         [EmailAddress]
         public string Email { get; set; }
+
+        // For ApplicationUser inheriting from IdentityUser
+        public int UserID { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public int OrgID { get; set; }
+
+        public int AuthLevel { get; set; }
+
         public string ReturnUrl { get; set; } = "/";
     }
 }

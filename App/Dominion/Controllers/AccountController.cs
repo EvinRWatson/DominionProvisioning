@@ -32,7 +32,7 @@ namespace Dominion.Controllers
             if (ModelState.IsValid)
             {
                 IdentityUser user =
-                await userManager.FindByNameAsync(loginModel.Name);
+                await userManager.FindByNameAsync(loginModel.UserName);
                 if (user != null)
                 {
                     await signInManager.SignOutAsync();
@@ -59,12 +59,19 @@ namespace Dominion.Controllers
         {
             if (ModelState.IsValid)
             {
-                IdentityUser User = new IdentityUser { UserName = registerModel.Name, Email = registerModel.Email };
+                ApplicationUser User = new ApplicationUser {    UserName = registerModel.UserName,
+                                                                Email = registerModel.Email,
+                                                                UserID = registerModel.UserID,
+                                                                FirstName = registerModel.FirstName,
+                                                                LastName = registerModel.LastName,
+                                                                OrgID = registerModel.OrgID,
+                                                                AuthLevel = 1
+                };      
                 var result = await userManager.CreateAsync(User, registerModel.Password);
                 if(result.Succeeded)
                 {
                     await signInManager.SignOutAsync();
-                    if((await signInManager.PasswordSignInAsync(registerModel.Name, registerModel.Password, false, false)).Succeeded)
+                    if((await signInManager.PasswordSignInAsync(registerModel.UserName, registerModel.Password, false, false)).Succeeded)
                     {
                         return Redirect(registerModel?.ReturnUrl ?? "/");
                     }

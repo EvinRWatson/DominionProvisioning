@@ -9,7 +9,7 @@ namespace Dominion.Models
     public class LoginModel
     {
         [Required]
-        public string Name { get; set; }
+        public string UserName { get; set; }
 
         [Required]
         public string Password { get; set; }

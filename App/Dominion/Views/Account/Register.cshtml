@@ -22,26 +22,49 @@
                 <div class="text-danger" asp-validation-summary="All"></div>
                 <form asp-action="Register" asp-controller="Account" method="post">
                     <input type="hidden" asp-for="ReturnUrl" />
+
                     <div class="form-group">
-                        <label asp-for="Name">Username</label>
-                        <div asp-validation-for="Name" class="text-danger"></div>
-                        <input asp-for="Name" class="form-control" />
+                        <label asp-for="UserName">Username</label>
+                        <div asp-validation-for="UserName" class="text-danger"></div>
+                        <input asp-for="UserName" class="form-control" />
                     </div>
+
+                    <div class="form-group">
+                        <label asp-for="FirstName">First Name</label>
+                        <div asp-validation-for="FirstName" class="text-danger"></div>
+                        <input asp-for="FirstName" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="LastName">Last Name</label>
+                        <div asp-validation-for="LastName" class="text-danger"></div>
+                        <input asp-for="LastName" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="OrgID">Input Organization ID #</label>
+                        <div asp-validation-for="OrgID" class="text-danger"></div>
+                        <input asp-for="OrgID" class="form-control" />
+                    </div>
+
                     <div class="form-group">
                         <label asp-for="Password"></label>
                         <div asp-validation-for="Password" class="text-danger"></div>
                         <input asp-for="Password" type="password" class="form-control" />
                     </div>
+
                     <div class="form-group">
                         <label asp-for="ConfirmPassword">Confirm Password</label>
                         <div asp-validation-for="ConfirmPassword" class="text-danger"></div>
                         <input asp-for="ConfirmPassword" type="password" class="form-control" />
                     </div>
+
                     <div class="form-group">
                         <label asp-for="Email"></label>
                         <div asp-validation-for="Email" class="text-danger"></div>
                         <input asp-for="Email" class="form-control" />
                     </div>
+
                     <button class="btn btn-primary" style="background-color: #125721;" type="submit">Log In</button>
                     <a class="btn btn-warning" href="/account/Login">Go Back</a>
                 </form>
