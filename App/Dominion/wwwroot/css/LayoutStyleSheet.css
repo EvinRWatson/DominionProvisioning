@@ -22,7 +22,7 @@ body {
 
 .NavBar {
     grid-area: NavBar;
-    padding-right: 10%;
+    padding-left: 10%;
 }
 
 a.navbar-brand {
@@ -35,39 +35,12 @@ a.navbar-brand {
     background-color: #125721;
     border-radius: 15px;
     color: white;
-    padding: 20px 12px;
     text-align: center;
-    display: inline-block;
+    vertical-align: center;
     font-size: 18px;
-
-    transition: all 0.5s;
-    cursor: pointer;
 }
 
 .NavBarButton:hover{
     background-color: gray;
-}
-
-
-.NavBarButtonn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.NavBarButton span:after {
-  content: '\00bb';
-  position: absolute;
-  transition: 0.5s;
-}
-
-.NavBarButtonn:hover span {
-  padding-right: 25px;
-}
-
-.NavBarButton:hover span:after {
-  opacity: 1;
-  right: 0;
 }
 

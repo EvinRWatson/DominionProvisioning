@@ -17,5 +17,15 @@ namespace Dominion.Models
         public int OrgID { get; set; }
 
         public int AuthLevel { get; set; }
+
+        public ApplicationUser(string input)
+        {
+            UserName = input;
+        }
+
+        public ApplicationUser()
+        {
+
+        }
     }
 }

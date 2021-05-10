@@ -11,21 +11,19 @@
 
     <body class="row Gradient" style="overflow: hidden;" >
         
-            <div class="col-md-1">
-                <nav class="NavBar nav flex-column">
+            <div class="col-lg-1">
+                <nav class="nav flex-column" style="max-width: 30%;">
                     <input type="button" class="NavBarButton" value="Home" onclick="location.href='@Url.Action("Index", "Home")'" />
                     <input type="button" class="NavBarButton" value="Requests" onclick="location.href='@Url.Action("Index", "Requests")'" />
-                    <input type="button" class="NavBarButton" value="Inventories" onclick="location.href='@Url.Action("Index", "Inventories")'" />
-                    <input type="button" class="NavBarButton" value="Stock List" onclick="location.href='@Url.Action("Index", "StockLists")'" />
+                    <input type="button" class="NavBarButton" value="Inventory" onclick="location.href='@Url.Action("Index", "Inventories")'" />
+                    <input type="button" class="NavBarButton" value="StockList" onclick="location.href='@Url.Action("Index", "StockLists")'" />
                     <input type="button" class="NavBarButton" value="Users" onclick="location.href='@Url.Action("Index", "Users")'" />
                     <a class="btn btn-warning" href="/account/logout">Log Out</a>
                 </nav>
             </div>
             
-            <div class="col-md-11">
-                <main role="main" class="MainBody pb-3">
+            <div class="col-lg-11" style="padding-left: 4%">
                     @RenderBody()
-                </main>
             </div>
 
             <script src="~/lib/jquery/dist/jquery.min.js"></script>

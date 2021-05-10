@@ -10,10 +10,10 @@ namespace Dominion.Controllers
 {
     public class AccountController : Controller
     {
-        private UserManager<IdentityUser> userManager;
-        private SignInManager<IdentityUser> signInManager;
-        public AccountController(UserManager<IdentityUser> userMgr,
-        SignInManager<IdentityUser> signInMgr)
+        private UserManager<ApplicationUser> userManager;
+        private SignInManager<ApplicationUser> signInManager;
+        public AccountController(UserManager<ApplicationUser> userMgr,
+        SignInManager<ApplicationUser> signInMgr)
         {
             userManager = userMgr;
             signInManager = signInMgr;
@@ -31,7 +31,7 @@ namespace Dominion.Controllers
         {
             if (ModelState.IsValid)
             {
-                IdentityUser user =
+                ApplicationUser user =
                 await userManager.FindByNameAsync(loginModel.UserName);
                 if (user != null)
                 {
