@@ -1,9 +1,14 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+@{
     ViewData["Title"] = "Home Page";
+
+    //User object: required anytime you need to access current users properties
+        var user = (ApplicationUser) UserManager.Users.Where(u => u.UserName.Equals(UserManager.GetUserName(User))).Single();
 }
     <div class="row" style="height: 100%; overflow: hidden;">
         <div class="col-md-9">
-            <h1>Notifications:</h1>
+            <h1>@user.UserName Notifications:</h1>
             <p style="color: red">Not Implemented</p>
         </div>
         <div class="col-md-3">

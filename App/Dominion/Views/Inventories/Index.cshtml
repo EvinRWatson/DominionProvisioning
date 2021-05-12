@@ -4,6 +4,8 @@
 @inject UserManager<ApplicationUser> UserManager
 @{
     ViewData["Title"] = "Index";
+
+    //User object: required anytime you need to access current users properties
     var user = (ApplicationUser) UserManager.Users.Where(u => u.UserName.Equals(UserManager.GetUserName(User))).Single();
 }
 
@@ -32,7 +34,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-    if(user.OrgID == item.OrgID)
+    if(user.OrgID == item.OrgID || user.UserName == "Admin")
     {
         <tr>
             <td>
