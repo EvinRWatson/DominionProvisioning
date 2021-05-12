@@ -1,7 +1,10 @@
 ﻿@model IEnumerable<Dominion.Models.Inventory>
-
+@using Dominion.Models
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
 @{
     ViewData["Title"] = "Index";
+    var user = (ApplicationUser) UserManager.Users.Where(u => u.UserName.Equals(UserManager.GetUserName(User))).Single();
 }
 
 <h1>Inventory</h1>
@@ -29,6 +32,8 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
+    if(user.OrgID == item.OrgID)
+    {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.StockID)
@@ -48,6 +53,7 @@
                 <a asp-action="Delete" asp-route-id="@item.StockID" class="btn btn-danger">Delete</a>
             </td>
         </tr>
+    }
 }
     </tbody>
 </table>
