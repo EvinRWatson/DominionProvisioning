@@ -12,26 +12,22 @@ As a retail store owner, I need efficient and easy to use data entry tools so th
 ## Requirement Traceability Matrix
 | ReqID		| Description | Test Method | TestID |
 | ----------- | ----------- | ---------- | ---------- |
-| 1 | The user shall be able to view and manage inventory | Test | |
-| 2 | The user shall be able to make requests | Test | |
-| 3 | The user shall be able to View Notifications | Test | |
+| 1 | The user shall be able to view and manage inventory | Test | 1 |
+| 2 | The user shall be able to make requests | Test | 2 |
+| 3 | The user shall be able to View Notifications | Test | 3 |
 | 4 | The user(Organization Administrator) shall be able to manage organization | Inspection | |
-| 5 | The user shall be able to view Order Statuses | Test | |
+| 5 | The user shall be able to view Order Statuses | Test | 4 |
 | 6 | The system shall handle Login and Authentication | Analysis | |
 | 7 | The system shall allow the data servers interact with APIs for POS and order tracking | Analysis | |
-| 8 | The system shall allow for real-time database updating | Test | |
-| 9 |  The system shall allow cross-platform compatibility with all browsers and operating systems | Analysis | |
-| 10 |  The system shall allow 99.9% Server Uptime | Test | |
+| 8 |  The system shall allow cross-platform compatibility with all browsers and operating systems | Analysis | |
 
 ## Test Table
 | Test ID | ReqID | Procedure | Status | TimeStamp |
 | ----------- | ----------- | ---------- | ---------- | ----------------- |
-| 1 | 1 | Click through and be able to add and remove inventory | Not-Tested | N/A |
-| 2 | 2 | Start up the request form and be able to place a request | Not-Tested | N/A |
+| 1 | 1 | Click through and be able to add and remove inventory | Passed | 5/16/2021 |
+| 2 | 2 | Start up the request form and be able to place a request | Passed | 5/16/2021 |
 | 3 | 3 | Notifications appear on the home page given conditions | Not-Tested | N/A |
-| 4 | 5 | Click on Requests and see all placed Requests | Not-Tested | N/A |
-| 5 | 8 | Using two users, observe the time it takes to update the database from one users change to the second users machine | Not-Tested | N/A |
-| 6 | 10 | Measure Server Uptime over a monthly basis | Not-Tested | N/A | 
+| 4 | 5 | Click on Requests and see all placed Requests | Passed | 5/16/2021 |
 ## Requirements
 ### User Requirements
 	View and Manage Inventory
