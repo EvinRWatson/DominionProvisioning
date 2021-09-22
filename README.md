@@ -1,5 +1,7 @@
 # Dominion Provisioning
 
+**Note: The hosting of the Dominion Provisioning site has been put on hiatus indefinitely**
+
 Website: [Dominion Provisioning](https://dominionpro.org/)
 
 
